@@ -128,6 +128,7 @@ public class FXMLDocumentController implements Initializable {
         reaper.stop();
         whiteToRed.stop();
         displayText.setText("Finished!");
+        writersDOOM.setMouseTransparent(false);
         
         Button save = new Button("Save'n'Close");
         header.getChildren().clear();
